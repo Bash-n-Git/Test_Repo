@@ -1,0 +1,71 @@
+.standings-table {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    background-color: rgba(0, 31, 63, 0.9);
+    color: white;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 500px;
+    max-height: 1000px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .table-header {
+    text-align: center;
+  }
+  
+  .table-header h2 {
+    margin-bottom: 10px;
+  }
+  
+  .groups {
+    display: flex;
+    margin-bottom: 10px;
+    overflow-x: auto;
+  }
+  
+  .group {
+    padding: 5px 10px;
+    cursor: pointer;
+    
+    flex: auto;
+  }
+  
+  .group.active {
+    background-color: #0056b3;
+    border-radius: 4px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+   td {
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  th {
+    padding: 8px;
+    text-align: center;
+    background-color: #d41857;
+    font-size: 16px;
+  }
+  
+  .team-column {
+    text-align: left;
+  }
+  
+  .team-column .flag {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  
+  

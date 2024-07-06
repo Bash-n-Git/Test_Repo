@@ -1,0 +1,102 @@
+.match-highlights {
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+  position: relative;
+ 
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.match-highlights h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.highlight-container {
+  display: flex;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.highlight-cards {
+  display:flex;
+  flex-direction: row;
+  
+}
+
+.highlight-card {
+  width: 25%;
+  min-width: 300px;
+  margin: 0 10px;
+  background-color: rgba(52, 52, 52);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.highlight-image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.highlight-info {
+  padding: 10px;
+}
+
+.highlight-date {
+  font-size: 15px;
+  color: #dbdada;
+}
+
+.highlight-description {
+  font-size: 18px;
+  margin-top: 5px;
+  color: white;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.right-arrow {
+  right: 0;
+}
+
+.arrow.disabled {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: not-allowed;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}

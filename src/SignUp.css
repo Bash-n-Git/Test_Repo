@@ -1,0 +1,120 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+    color: #ffffff;
+  }
+  
+  .signup-content {
+    background-color: #2e2e2e;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+   max-width: 500px;
+  }
+  
+  .signup-form .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .signup-form .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .signup-form .form-group input,
+  .signup-form .form-group select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .verification-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  
+  .verification-button:hover {
+    background-color: #1558b0;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #1558b0;
+  }
+  
+  .form-group.checkbox-group {
+   
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group.checkbox-group input[type="checkbox"] {
+    margin-right: 100rem;
+    margin-top: 0.2rem;
+  }
+  
+  .form-group.checkbox-group a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .form-group.checkbox-group a:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: #ff6b6b;
+    font-size: 0.875rem;
+  }
+  
+  .submission-status {
+    display: block;
+    margin-top: 1rem;
+    color: #4caf50;
+    font-size: 1rem;
+  }
+
+  .text {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -26px;
+  }
+
+  .errored {
+    color: #ff6b6b;
+    font-size: 0.875rem;
+    margin-right: 00px;
+  }
+  
+  .check {
+    display: flex;
+    align-items: flex-start;
+    
+  }
